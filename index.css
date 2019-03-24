@@ -1,0 +1,384 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    border: 0px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mynav{
+    display: flex;
+    justify-content: space-between;
+}
+.navitem{
+    width: 85% ;
+   
+}
+.donatesurround{
+    width: 15%;
+
+}
+.donate{
+    background-color: rgb(236, 55, 85);
+    /* width: 15%; */
+    display: flex;
+     justify-content: center;
+     cursor: pointer;
+}
+.logo{
+    margin-left: 40px;
+}
+
+.parallax-container{
+    height: 750px;
+}
+.empowersection{
+    font-size: 50px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 38%;
+    color: aliceblue;
+}
+.space{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .quotecontain{
+    padding-bottom: 70px;
+    background-color: rgb(23, 23, 97);
+    color: aliceblue;
+    
+}
+.quote{
+    padding-top: 50px;
+}
+.quote1{
+    text-align: center;
+    font-size: 30px;
+
+}
+.cite{
+    text-align: center;
+    font-size: 15px;
+}
+.flexsection{
+    height: auto;
+    display: flex;
+
+}
+.missionsection{
+       flex: 1;
+       background-color: rgb(250, 89, 116);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+}
+.minieventsec{
+    flex: 1;
+    background-color: rgb(145, 210, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.involvedsection{
+ flex: 1;
+ background-color: rgb(64, 32, 248);
+ display: flex;
+ justify-content: center;
+ align-items: center
+}
+.contain{
+    width: 85%;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.contain p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.contain a{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.contain a:hover{
+    color: rgba(248, 230, 230, 0.466);
+}
+.joinsection{
+    height: auto;
+    display: flex;
+}
+.join1sec{
+    flex: 1 40% ;
+    background-color: rgb(44, 44, 126);
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    
+}
+.joincontent{
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+.joinsection h4{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 200px;
+}
+.joincontent p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.picturesection{
+          flex: 1 60% ;
+          height: 540px;
+}
+
+.womencontent{
+    width: 60%;
+    margin-left: 20%;
+}
+.quick{
+    margin-top: 20px;
+}
+
+.quick a{
+    color: rgb(51, 50, 50);
+    line-height: 25px;
+    
+
+}
+
+.monthlycontent{
+    width: 80%;
+    text-align: center;
+}
+.signup{
+    background-color: rgb(221, 81, 105);
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    cursor:pointer;
+
+}
+.signup a{
+    color: white;
+}
+.footer{
+    background-color: rgb(44, 44, 126);
+    text-align: center;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer p{
+    color: white;
+   
+}
+.socialicons{
+    width: 5%;
+    line-height: 20px;
+    float: right;
+    position: fixed;
+    background-color: rgb(44, 44, 126);
+    text-align: center;
+    padding: 10px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.socialicons a{
+   color: aliceblue;
+}
+.joinicons{
+    display: none;
+}
+ .mobileslider > *{
+  display: none;
+
+}  
+.button{
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.flex{
+    display: flex;
+    
+}
+.date{
+    font-size: 40px;
+    padding: 3%;
+}
+.month{
+    font-size: 12px;
+    margin-top: 10px;
+    padding:3%;
+}
+.lecture{
+    margin-top: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+.abc:hover .flex{
+    display: none;
+    color: rgb(170, 59, 77);
+}
+.lecture:hover{
+    color: rgb(177, 43, 66);
+}
+
+.pinkcontent > *{
+    margin: 20px;
+}
+.pinkcontent{
+    text-align: center;
+    padding: 20px;
+}
+.form{
+    margin-top: 30%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+.text{
+    width: 85%
+}
+.send{
+    width: 10%;
+}
+.send a{
+    position: relative;
+    top: 40px;
+}
+.formobile {
+    display: none;
+}
+
+
+@media screen and (max-width:1000px){
+    .joinsection{
+        flex-wrap: wrap;
+    }
+    .join1sec{
+        flex-basis:100%;
+        order: 2;
+    }
+    .picturesection{
+        flex-basis: 100%;
+    }
+   
+}
+@media screen and (max-width:500px){
+    .mynav{
+        flex-wrap: wrap;
+    }
+    .navitem{
+        flex-basis: 100%
+    }
+    .donatesurround{
+        padding:10px 20px;
+        flex-basis: 100%;
+        background-color: rgba(0,0,0,0.7);
+
+    }
+    /* .donate{
+        display: none;
+    }*/
+    .joinsection{ 
+        flex-wrap: wrap;
+    }
+    .join1sec{
+        flex-basis:100%;
+        order: 2;
+    }
+    .picturesection{
+        flex-basis: 100%;
+    }
+    .socialicons{
+        display: none;
+    }
+    .joinicons{
+        width: 100%;
+        display:flex;
+        justify-content: space-around;
+        
+        margin-top:110px;
+    }
+    .joinicons a{
+        display: block;
+        color: white;
+    }
+
+     .mobileslider > *{
+       display: block;
+    }
+    .spacemob{
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .newssection{
+        display: none !important;
+    }
+    .flexsection{
+        flex-wrap: wrap;
+    }
+    .involvedsection{
+        flex-basis: 100%;
+    }
+    .minieventsec{
+        flex-basis: 100%;
+    }
+    .missionsection{
+        flex-basis: 100%;
+    }
+    .parallax-container{
+        height: 400px;
+    }
+    .picturesection{
+        height: 400px;
+    }
+    .womencontent{
+        margin-top: 20px;
+    }
+    .monthlycontent{
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 60px;
+    }
+    .quickcontent{
+        text-align: center;
+        margin-top:60px; 
+    }
+    .empowersection{
+        margin-top: 35%;
+        font-size: 35px;
+    }
+   .chatbox{
+       display: none;
+   }
+    .logo{
+        display: none;
+    }
+    
+}
