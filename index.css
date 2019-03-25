@@ -240,8 +240,8 @@ body{
     display: none;
     color: rgb(170, 59, 77);
 }
-.lecture:hover{
-    color: rgb(177, 43, 66);
+.cover:hover{
+    color: rgb(194, 59, 82);
 }
 
 .pinkcontent > *{
@@ -252,7 +252,7 @@ body{
     padding: 20px;
 }
 .form{
-    margin-top: 30%;
+    margin-top: 26%;
     width: 90%;
     display: flex;
     justify-content: space-between;
